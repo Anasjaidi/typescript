@@ -1,12 +1,17 @@
 class Departement {
 	private name: string;
-	public memebers: [];
+	private memebers: string[];
 	constructor(n: string) {
 		this.name = n;
 		this.memebers = [];
 	}
 
+  addNewMember(memebr: string) {
+    this.memebers.push(memebr)
+  }
+  
   desc() {
+    
     console.log(this.name);
   }
 }

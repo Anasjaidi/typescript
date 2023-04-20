@@ -4,6 +4,9 @@ class Departement {
         this.name = n;
         this.memebers = [];
     }
+    addNewMember(memebr) {
+        this.memebers.push(memebr);
+    }
     desc() {
         console.log(this.name);
     }

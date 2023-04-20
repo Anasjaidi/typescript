@@ -1,7 +1,7 @@
 "use strict";
 class Departement {
-    constructor(n) {
-        this.name = n;
+    constructor(name) {
+        this.name = name;
         this.memebers = [];
     }
     addNewMember(memebr) {

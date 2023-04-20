@@ -11,7 +11,7 @@ const me = {
 };
 
 // Property 'nick' does not exist on type
-console.log(me.nick)
+// console.log(me.nick) // ERROR !!!!!!!
 
 const obj : object = {
   name: 'anas jaidi'
@@ -21,7 +21,7 @@ const obj2: {} = {
   name: 'anas jaidi'
 }
 
-console.log((obj.name) === (obj2.name))
+// console.log((obj.name) === (obj2.name)) // // ERROR !!!!!!!
 
 
 /**

@@ -2,6 +2,10 @@
  * Tuples are fixed length & type 
  * 
  * example: [1,2]
+ * 
+ * @description here we say to ts that we have atype with 
+ * two elements where the first needs to be number and second 
+ * needs to be string
 */
 
 const person4: {

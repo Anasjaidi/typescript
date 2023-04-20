@@ -2,7 +2,7 @@
 // string : chars + strings
 // boolean
 
-import { log } from "console";
+const {log} = console
 
 
 

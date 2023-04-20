@@ -1,7 +1,8 @@
 "use strict";
 class Departement {
-    constructor(name) {
+    constructor(name, _id) {
         this.name = name;
+        this._id = _id;
         this.memebers = [];
     }
     addNewMember(memebr) {
@@ -11,5 +12,5 @@ class Departement {
         console.log(this.name);
     }
 }
-const d1 = new Departement("code");
+const d1 = new Departement("code", "id");
 console.log(d1.desc());

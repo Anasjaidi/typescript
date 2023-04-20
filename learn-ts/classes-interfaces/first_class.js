@@ -2,6 +2,11 @@
 class Departement {
     constructor(n) {
         this.name = n;
+        this.memebers = [];
+    }
+    desc() {
+        console.log(this.name);
     }
 }
-console.log(new Departement("code"));
+const d1 = new Departement("code");
+console.log(d1.desc());

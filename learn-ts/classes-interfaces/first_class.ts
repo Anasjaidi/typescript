@@ -1,9 +1,14 @@
 class Departement {
+	private name: string;
+	public memebers: [];
+	constructor(n: string) {
+		this.name = n;
+		this.memebers = [];
+	}
 
-  name: string;
-  constructor(n: string) {
-    this.name = n;
+  desc() {
+    console.log(this.name);
   }
 }
-
-console.log(new Departement("code"));
+const d1 = new Departement("code");
+console.log(d1.desc());

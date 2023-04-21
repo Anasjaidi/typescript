@@ -5,6 +5,13 @@ function Looger(log: string) {
 	};
 }
 
+
+/**
+ * excution of decoratorsfrom top to bottom 
+ * 
+ * excution of decorators factories from bottom to top
+*/
+
 @Looger("anas jaidi")
 class Person2 {
 	name: string = "max";

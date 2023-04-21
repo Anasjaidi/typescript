@@ -5,6 +5,7 @@
 
 const ErrorHandler = (code: number, message: string) : never => {
   throw {code, message}
+  // while (true) {}
 }
 
 ErrorHandler(400, "something is not god")

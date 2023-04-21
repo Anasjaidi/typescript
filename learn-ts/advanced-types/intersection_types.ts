@@ -1,3 +1,11 @@
+
+/**
+ * 
+ * intersection types can be done on interface and type aliases
+ * 
+ * in object types is the combination of types but in basic types it take the common types only
+*/
+
 // approach 1
 
 type Admin = {
@@ -50,4 +58,14 @@ const AdvEmplBasic2: EmpAdv2 = {
 	age: new Date(),
 	name: "aaa",
 	previliges: [],
-};
+}
+
+
+//?  Basic types
+
+type t1 = number | string
+
+type t2 = number | boolean
+
+// number
+type t3 = t1 & t2
